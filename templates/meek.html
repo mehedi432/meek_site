@@ -1,0 +1,64 @@
+{% extends 'master.html' %}
+{% load static %}
+
+{% block title %}Meek Sweater Ltd.{% endblock title %}
+
+{% block content %}
+    {% include 'partials/_headerprofile.html' %}
+    <main id="main">
+
+        <!-- ======= Our another project Section ======= -->
+        <section id="profile">
+          <div class="container mt-4" data-aos="fade-up">
+              <div class="section-title">
+                <h2>Meek Sweater Ltd.</h2>
+                <p>Meek Sweater Ltd. was the first project which started at the year of <strong>2009</strong>. From the very beginning of this company it started exporting high quality sweater items to various countries of the world and gained their trust for producing high quality products. Meek Sweater Ltd also works with a vast amount of major clients which leads them to place order in every year.</p>
+              </div>
+
+              <div class="row justify-content-center clearfix" data-aos="fade-up">
+                <img class="img-responsive img-fluid mx-auto d-block" src="{% static 'img/profile/another-images-33.jpg'%}" alt="meek sweater ltd image">
+              </div>
+          </div>
+        </section><!-- Our another project Section -->
+
+
+        <!-- ======= Our profile Section ======= -->
+        <section id="profile-meek">
+          <div class="container mt-4" data-aos="fade-right">
+              <div class="section-title">
+                <h2>Company Profile of <strong>Meek Sweater Ltd.</strong></h2>
+              </div>
+
+              <div class="row justify-content-center clearfix" data-aos="fade-up">
+                <iframe src="{% static 'img/meek_sweater_factory_profile.pdf' %}" type="application/pdf" style="width:100%; height:610px;" frameborder="0"></iframe>
+              </div>
+          </div>
+        </section><!-- End Our Profile Section -->
+        
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container d-md-flex py-4">
+
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Meek Sweater & Fashions Ltd <span id='year'>2022</span></span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            Develop by <a href="https://github.com/mehedi432">Meek IT</a>
+          </div>
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+    </footer><!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    
+{% endblock content %}

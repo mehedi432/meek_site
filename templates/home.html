@@ -1,0 +1,1032 @@
+{% extends 'master.html' %}
+{% load static %}
+
+{% block title %}Meek Sweater & Fashions Ltd.{% endblock title %}
+{% block content %}
+{% include 'partials/_header.html' %}
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+      <div id="heroCarousel" data-bs-interval="1500" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url( {% static 'img/slide/banner-1-main.jpg' %} );">
+            <div class="carousel-container">
+              <div class="carousel-content animate__animated animate__fadeInUp">
+                <h2 class="mb-2"><strong>Welcome to meek sweater & fashions ltd.</strong></h2>
+                <p>We strictly maintain our commitment and follow 3Q policy : Quality first, Quality last and Quality always (QQQ).</p>
+                <p>It may be mentioned that from the day one, our management is very conscious about the COMPLIANCE requirement of today and future.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url({% static 'img/slide/banner-1-op-1920x1024.png' %});">
+            <div class="carousel-container">
+              <div class="carousel-content animate__animated animate__fadeInUp">
+                <h2 class="mb-2"><strong>Welcome to meek sweater & fashions ltd.</strong></h2>
+                <p>We strictly maintain our commitment and follow 3Q policy : Quality first, Quality last and Quality always (QQQ).</p>
+                <p>It may be mentioned that from the day one, our management is very conscious about the COMPLIANCE requirement of today and future.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background-image: url({% static 'img/slide/banner-2-op-1920x1024.png' %});">
+            <div class="carousel-container">
+              <div class="carousel-content animate__animated animate__fadeInUp">
+                <h2 class="mb-2"><strong>Welcome to meek sweater & fashions ltd.</strong></h2>
+                <p>We strictly maintain our commitment and follow 3Q policy : Quality first, Quality last and Quality always (QQQ).</p>
+                <p>It may be mentioned that from the day one, our management is very conscious about the COMPLIANCE requirement of today and future.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="carousel-item" style="background-image: url({% static 'img/slide/banner-3-op-1920x1024.png' %});">
+            <div class="carousel-container">
+              <div class="carousel-content animate__animated animate__fadeInUp">
+                <h2 class="mb-2"><strong>Welcome to meek sweater & fashions ltd.</strong></h2>
+                <p>We strictly maintain our commitment and follow 3Q policy : Quality first, Quality last and Quality always (QQQ).</p>
+                <p>It may be mentioned that from the day one, our management is very conscious about the COMPLIANCE requirement of today and future.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      </div>
+    </section><!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= Management Section ======= -->
+      <section id="management" class="team section-bg">
+        <div class="container mt-4">
+
+          <div class="section-title" data-aos="fade-up">
+            <h2>Our <strong>Management</strong></h2>
+            <p>We have highly experienced management team and their co-operation for this company takes to another level of success. With their hard work, projects are growing fast and become one of the most popular sweater industries in Bangladesh.</p>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-img">
+                  <img src="{% static 'img/team/MD_SIR.jpg' %}" class="img-fluid" alt="">
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>M A Mannan</h4>
+                  <span><strong>Managing Director</strong></span>
+                  <span>Mobile: +8801711566422</span>
+                  <span>Email: <a href = "mailto: mannan@meeksweater.com">mannan@meeksweater.com</a></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="100">
+                <div class="member-img">
+                  <img src="{% static 'img/team/raju_sir.jpg' %}" class="img-fluid" alt="">
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Anupam Dey (Raju)</h4>
+                  <span><strong>Chairman</strong></span>
+                  <span>Mobile: +8801713077966</span>
+                  <span>Email: <a href = "mailto: raju@meeksweater.com">raju@meeksweater.com</a></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-img">
+                  <img src="{% static 'img/team/female.jpg' %}" class="img-fluid" alt="" width="600px" height="600px">
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Mrs. Rawshan Ara Begum</h4>
+                  <span><strong>Director</strong></span>
+                  <span>Mobile: +8801713036279</span>
+                  <span>Email: <a href = "mailto: rawshan@meeksweater.com">rawshan@meeksweater.com</a></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="100">
+                <div class="member-img">
+                  <img src="{% static 'img/team/female.jpg' %}" class="img-fluid" alt="">
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Mrs. Beauty Dey</h4>
+                  <span><strong>Director</strong></span>
+                  <span>Mobile: +8801713******</span>
+                  <span>Email: <a href = "mailto: beauty@meeksweater.com">beauty@meeksweater.com</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><!-- End Our Management Section -->
+      
+      <!-- ======= Compliance Section ======= -->
+      <section id="compliance" class="services">
+        <div class="container mt-4" data-aos="fade-up">
+          <div class="container text-center section-title"><h2>Compliance</h2></div>
+            <div class="row">
+              <div class="col-lg-12 col-md-12 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                  <p class='text-justify' style='text-align:justify;'>We are compliant with all rules and regulations under the Bangladesh Labor Code 2006 as well as ILO’s Code of Conduct. Our factory maintains active status with an excellent ranking with several auditing bodies including ACCORD, BSCI, SEDEX, ICS, etc. As a result, we are an approved vendor for many significant retailers all over the world.</p>
+              </div>
+
+              {% comment %} <div class="col-lg-6 col-md-4 col-sm-4" data-aos="zoom-in" data-aos-delay="89">
+                  <div class="container">
+                    <div class="row">
+                    <div class="col-md-4 col-lg-6 col-sm-6">
+                      <img class="img-fluid" src="{% static 'img/compliance/accord-240x110.png' %}" alt="" srcset="">
+                    </div>
+                    <div class="col-md-4 col-lg-6 col-sm-4">
+                      <img class='mt-3 img-fluid' src="{% static 'img/compliance/amfo-2525-1.png' %}" alt="" srcset="">
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4 col-lg-6 col-sm-4">
+                      <img class='img-fluid' src="{% static 'img/compliance/ics-240x110.png' %}" alt="" srcset="">
+                    </div>
+                    <div class="col-md-4 col-lg-6 col-sm-4">
+                      <img class='mt-1 img-fluid' src="{% static 'img/compliance/sedex-logo-240x110.png' %}" alt="" srcset="">
+                    </div>
+                  </div>
+
+                  </div>
+              </div> {% endcomment %}
+              
+              <!-- ======= Testimonials Section ======= -->
+              <section id="testimonials" class="testimonials section-bg">
+                <div class="container">
+                  <div class="row">
+
+                    <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                      <div class="testimonial-item">
+                        <img src="{% static 'img/compliance/accord-240x110.png' %}" class="testimonial-img" alt="">
+                        <h3>Accord | RCS</h3>
+                        <h4>Building, Fire &amp; Electrical Safety</h4>
+                        <p>
+                          <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                            Our safety taining is on going and remediation is behind schedule. We have fire safty, structural safety and Electrical safety with the progress rate of 95%. 
+                          <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                      <div class="testimonial-item ">
+                        <img src="{% static 'img/compliance/ics-240x110.png' %}" class="testimonial-img" alt="">
+                        <h3>ICS</h3>
+                        <h4>Compliance &amp; Sustainability</h4>
+                        <p>
+                          <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                          ICS is an international sectoral initiative with the aim to enhance working conditions along global supply chains. we have a score of 94 with C and valid till 2023.
+                          <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                      <div class="testimonial-item mt-4">
+                        <img src="{% static 'img/compliance/amfo-2525-1.png' %}" class="testimonial-img" alt="">
+                        <h3>Amfori | BSCI</h3>
+                        <h4>Trade with purpose</h4>
+                        <p>
+                          <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                          Customers are demanding that companies operate in a way which is ethical, transparent and sustainable.'B' is our grade and will expire on 2024.
+                          <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                      <div class="testimonial-item mt-4">
+                        <img src="{% static 'img/compliance/sedex-logo-240x110.png' %}" class="testimonial-img" alt="">
+                        <h3>Sedex</h3>
+                        <h4>Global | Supply Chain</h4>
+                        <p>
+                          <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                          Sedex is one of the world’s leading ethical trade membership organisation, working with businesses to improve working conditions in global supply chains.
+                          <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                        </p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </section><!-- End Testimonials Section -->
+            </div>
+        </div>
+      </section><!-- End Compliance Section -->
+
+      <!-- ======= About Us Section ======= -->
+      <div>
+        <section id="about">
+          <div class="container text-center section-title mt-4">
+            <h2>About <strong>Us</strong></h2>
+          </div>
+
+          <div class="container" data-aos="fade-up">
+            <div class="row">
+              <div class="col-lg-6" data-aos="fade-right">
+                  <p style='text-align:justify;'><b>MEEK SWEATER & FASHIONS LTD. & MEEK SWEATER LTD. is an 100% export oriented sweater manufacturer in Bangladesh. These companies started it's journey from the year of <strong>2009</strong> with the name of <strong>Meek Sweater Ltd.</strong> and after passing several years of successfull business the company started another sister project which is known as <strong>Meek Sweater & Fashions Ltd.</strong> which is established in the year of <strong>2017</strong> and it becomes the head office of this company.</b></h3>
+                  <p style='text-align:justify;' class='mt-3'><b>MEEK SWEATER & FASHIONS LTD. is located at Gazipur within 15 kilometers southeast from Dhaka International Airport. The factory setup is in a newly built building with floor space of 1,60,000 square feet which is distibuted by 2 six storied building.</b></p>
+                  <p style='text-align:justify;' class='mt-3'><b>MEEK SWEATER LTD. is located at Gazipura within 8 kilometers southeast from Dhaka International Airport. The factory setup is in a newly built building with floor space of 62,500 square feet which is 7 storied.</b></p>
+                  <p style='text-align:justify;' class='mt-3'><b>The line of production designed with jacquard & knitting machines of 3, 5, 7 and 12 gauges that assured yearly production capacity of around 68,40,000 pcs. The factories are well equipped with modern machinery.</b></p>
+                  <p style='text-align:justify;' class='mt-3'><b>The main products of this company are all kinds of sweater like pullover, cardigan, vest, lingerie and others for Men, Women and Children. Our first priority is to deliver the best quality product in time. Both of our factories are socially compliant Factory.</b></p>
+              </div>
+              <div class="col-lg-6" data-aos="fade-left">
+                <div>
+                  <canvas id="myChart" width="100%" height="100%"></canvas>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div><!-- End About Us Section -->
+
+        <!-- ======= Gallery Section ======= -->
+        <section id="gallery" class="portfolio ">
+            <div class="container text-center section-title mt-3" id="">
+              <h2>Our <strong>Gallery</strong></h2>
+            </div>
+            <div class="container">
+                <div class="row portfolio-container" data-aos="fade-up">
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app" >
+                    <img src="{% static 'img/portfolio/portfolio-1.jpg' %}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <p>Meek Sweater & Fashions Ltd</p>
+                      <a href="{% static 'img/portfolio/portfolio-1.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" data-title="Meek Sweater & Fashions Ltd"><i class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <img src="{% static 'img/portfolio/portfolio-2.jpg' %}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                    <p>Jaquard Section</p>
+                    <a href="{% static 'img/portfolio/portfolio-2.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" data-title="Jaquard Section"><i class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <img src="{% static 'img/portfolio/portfolio-3.jpg' %}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                        <p>High Speed Dial Lining Machine</p>
+                        <a href="{% static 'img/portfolio/portfolio-3.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="High Speed Dial Lining Machine"><i class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <img src="{% static 'img/portfolio/portfolio-4.jpg' %}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                    <p>Trimming Mending</p>
+                    <a href="{% static 'img/portfolio/portfolio-4.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Trimming Mending"><i class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <img src="{% static 'img/portfolio/portfolio-5.jpg' %}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                    <p>Wash Section</p>
+                    <a href="{% static 'img/portfolio/portfolio-5.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Wash Section"><i class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <img src="{% static 'img/portfolio/portfolio-6.jpg' %}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                    <p>Wash Section</p>
+                    <a href="{% static 'img/portfolio/portfolio-6.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Wash Section"><i class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <img src="{% static 'img/portfolio/portfolio-7.jpg' %}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                    <p>Iron Section</p>
+                    <a href="{% static 'img/portfolio/portfolio-7.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Iron Section"><i class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <img src="{% static 'img/portfolio/portfolio-8.jpg' %}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                    <p>Sewing Section</p>
+                    <a href="{% static 'img/portfolio/portfolio-8.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sewing Section"><i class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <img src="{% static 'img/portfolio/portfolio-9.jpg' %}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                    <p>Final Section</p>
+                    <a href="{% static 'img/portfolio/portfolio-9.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Final Section"><i class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <img src="{% static 'img/portfolio/portfolio-10.jpg' %}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                    <p>Finishing Section</p>
+                    <a href="{% static 'img/portfolio/portfolio-10.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Finishing Section"><i class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <img src="{% static 'img/portfolio/portfolio-11.jpg' %}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                    <p>Sample Section</p>
+                    <a href="{% static 'img/portfolio/portfolio-11.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Sample Section"><i class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <img src="{% static 'img/portfolio/portfolio-12.jpg' %}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                    <p>Accessories Store</p>
+                    <a href="{% static 'img/portfolio/portfolio-12.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Accessories Store"><i class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <img src="{% static 'img/portfolio/portfolio-13.jpg' %}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                    <p>Fire Door</p>
+                    <a href="{% static 'img/portfolio/portfolio-13.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Fire Door"><i class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <img src="{% static 'img/portfolio/portfolio-14.jpg' %}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                    <p>Child Care</p>
+                    <a href="{% static 'img/portfolio/portfolio-14.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Child Care"><i class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <img src="{% static 'img/portfolio/portfolio-15.jpg' %}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                    <p>Fire Hydrant</p>
+                    <a href="{% static 'img/portfolio/portfolio-15.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Fire Hydrant"><i class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <img src="{% static 'img/portfolio/portfolio-16.jpg' %}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                    <p>Medical Training</p>
+                    <a href="{% static 'img/portfolio/portfolio-16.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Medical Training"><i class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <img src="{% static 'img/portfolio/portfolio-17.jpg' %}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                    <p>Fire Safety Team</p>
+                    <a href="{% static 'img/portfolio/portfolio-17.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Fire Safety Team"><i class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <img src="{% static 'img/portfolio/portfolio-18.jpg' %}" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                    <p>Fire Safety Training</p>
+                    <a href="{% static 'img/portfolio/portfolio-18.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Fire Safety Training"><i class="bx bx-plus"></i></a>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </section><!-- End Galllery Section -->
+      </div>
+
+      <!-- ======= Merchandising Section ======= -->
+      <section id="team" class="team section-bg ">
+        <div class="container mt-4">
+          <div class="section-title" data-aos="fade-up" data-aos-delay="89">
+            <h2>Our <strong>Merchandising Team</strong></h2>
+            <p>We have 5-18 year's of experienced, dynamic and dedicated merchandiser in our merchandising team.</p>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-info">
+                  <h4>Zakir Choudhury</h4>
+                  <span>General Manager</span>
+                  <span>Email: <a href = "mailto: gmmerchandising@meeksweater.com">gmmerchandising@meeksweater.com</a></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-info">
+                  <h4>Anirban Mandal</h4>
+                  <span>Asst. Manager</span>
+                  <span>Email: <a href = "mailto: merchandising3@meeksweater.com">merchandising3@meeksweater.com</a></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-info">
+                  <h4>Mr. Mehdi</h4>
+                  <span>Senior Merchandiser</span>
+                  <span>Email: <a href = "mailto: merchandising9@meeksweater.com">merchandising9@meeksweater.com</a></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-info">
+                  <h4>Mr. Rafiq</h4>
+                  <span>Senior merchandiser</span>
+                  <span>Email: <a href = "mailto: merchandising8@meeksweater.com">merchandising8@meeksweater.com</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-info">
+                  <h4>Mr. Rony</h4>
+                  <span>Senior Merchandiser</span>
+                  <span>Email: <a href = "mailto: merchandising1@meeksweater.com">merchandising1@meeksweater.com</a></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-info">
+                  <h4>Mr. Milon</h4>
+                  <span>Senior Merchandiser</span>
+                  <span>Email: <a href = "mailto: merchandising4@meeksweater.com">merchandising3@meeksweater.com</a></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-info">
+                  <h4>Mr. Saiful Islam</h4>
+                  <span>Senior Merchandiser</span>
+                  <span>Email: <a href = "mailto: merchandising2@meeksweater.com">merchandising2@meeksweater.com</a></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up">
+                <div class="member-info">
+                  <h4>Mr. Shobuj</h4>
+                  <span>Senior Merchandiser</span>
+                  <span>Email: <a href = "mailto: merchandising5@meeksweater.com">merchandising5@meeksweater.com</a></span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section><!-- End Our Management Section -->
+
+      <!-- ======= Quality Assutance Section ======= -->
+      <section class="services" id="quality">
+        <div class="container mt-4" data-aos="fade-up">
+          <div class="container text-center section-title"><h2>Quality <strong>Assurance</strong></h2></div>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                    <p style='text-align:justify;'>We maintain strict quality control over the entire production process, from sourcing to packaging. Our merchandisers and quality control managers are extensively trained and have thorough knowledge about the products and the production process. In each stage of production, the product is thoroughly inspected to ensure that we meet the client’s requirements and provide them with the best quality product always.</p>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6" data-aos="zoom-in" data-aos-delay="89">
+                  <img class='img-fluid img-thumbnail' src="{% static 'img/testimonials/quality.jpg' %}" alt="" srcset="">
+                </div>
+              </div>
+          </div>
+        </div>
+      </section><!-- End Quality Assurance Section -->
+
+
+
+      <!-- ======= Products Section ======= -->
+    <section class="portfolio mt-4" id="products">
+      <div class="container mt-3">
+        <div class="section-title" data-aos="fade-up" data-aos-delay="89">
+          <h2>Our <strong>Products</strong></h2>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ladies">
+            <img src="{% static 'img/products/p-22-573x600.png' %}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ladies">
+            <img src="{% static 'img/products/p-19-550x600.png' %}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ladies">
+            <img src="{% static 'img/products/p-3-569x600.png' %}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ladies">
+            <img src="{% static 'img/products/p-4-569x600.png' %}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ladies">
+            <img src="{% static 'img/products/p-13-492x600.png' %}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="{% static 'img/products/p-14-508x600.png' %}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="{% static 'img/products/p-18-600x590.png' %}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="{% static 'img/products/p-8-569x600.png' %}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="{% static 'img/products/p-10-522x600.png' %}" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+
+      <!-- ======= Health & Safety Section ======= -->
+      <section class="services">
+        <div class="container mt-4" data-aos="fade-up">
+          <div class="container text-center section-title"><h2>Health & Safety</h2></div>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                    <p class='' style='text-align:justify;'>The proper importance of health & safety is ensured right from the top management of meek sweater & fashions ltd. Everyone in the company is given proper guideline of its safety precautions in order to minimize the number of accidents. All the basics of safety policies from different international organizations are mandatory for each and every person working in the company. Holding hand rails, good and tidy housekeeping, not going for the shortcuts etc. have been declared as compulsory for every person working with the company. Furthermore, creating awareness among the employees has also been an area of prime focus to raise the safety standards. Management of the company communicates frequently with the employees to make them understand the value of safety. The complaint mechanism ensures that safety and health concerns are properly addressed and remediated, the right to refuse unsafe work is upheld where necessary.</p>
+                </div>
+
+                <div class="col-lg-6 col-md-4 col-sm-4" data-aos="zoom-in" data-aos-delay="89">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col health-safety-pic">
+                        <img class="img-fluid img-thumbnail" src="{% static 'img/health/safty-1.png' %}" alt="" srcset="">
+                      </div>
+                      <div class="col health-safety-pic">
+                        <img class='img-fluid img-thumbnail' src="{% static 'img/health/safty-2.png' %}" alt="" srcset="">
+                      </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                      <div class="col mt-5 health-safety-pic">
+                        <img class='img-fluid img-thumbnail' src="{% static 'img/health/safty-3.png' %}" alt="" srcset="">
+                      </div>
+                      <div class="col mt-5 health-safety-pic">
+                        <img class='img-fluid img-thumbnail' src="{% static 'img/health/safty-4.png' %}" alt="" srcset="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+          </div>
+        </div>
+        <hr/>
+      </section><!-- End Health & Safety Section Section -->
+
+      <!-- ======= Corporate Social Responsibility Section ======= -->
+      <section class="services section-bg">
+        <div class="container mb-5" data-aos="fade-up">
+          <div class="container text-center mb-5 section-title"><h2>Corporate Social Responsibility</h2></div>
+              <div class="row mb-5">
+                <div class="col-lg-6 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                  <div style='text-align:justify;'>
+                    <p>We contribute a large portion of our profits towards the development of our society. We believe if we can work together to make a better society today, tomorrow we will leave behind the best society for our future generations. The company understands that a strong CSR program is an essential element in achieving good business practices and efficient leadership. That’s why the company has made a clear vision for CSR activities.</p>
+                    <h5>Meek sweater & fashions ltd. social organization</h5>
+                    <p><img src="{% static "img/corporate/pic1.png" %}" alt="" srcset=""></p>
+                    <p>মিত্র ফাউন্ডেশন</p>
+                    <strong><p>Here are some of our areas of our extended corporate <br/>
+                    social responsibility programs:</p></strong>
+                    <div>
+                      <ul>
+                        <li><i class="bx bx-chevron-right"></i> Warm Clothing Give Away in Winter Season</li>
+                        <li><i class="bx bx-chevron-right"></i> Merit Scholarship for Deserved Student</li>
+                        <li><i class="bx bx-chevron-right"></i> Tree Planation</li>
+                        <li><i class="bx bx-chevron-right"></i> Underprivileged Students Support</li>
+                        <li><i class="bx bx-chevron-right"></i> Free Vaccination</li>
+                        <li><i class="bx bx-chevron-right"></i> Health Camp for Women</li>
+                      </ul>                     
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-4 col-sm-4" data-aos="zoom-in" data-aos-delay="89">
+                  <div>
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+                      <!-- Indicators -->
+                      
+                      
+                      <!-- The slideshow -->
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="{% static 'img/corporate/01-545x363.jpg' %}" alt="Los Angeles" width="100%" height="100%">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="{% static 'img/corporate/02-545x363.jpg' %}" alt="Los Angeles" width="100%" height="100%">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="{% static 'img/corporate/03-545x363.jpg' %}" alt="Los Angeles" width="100%" height="100%">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="{% static 'img/corporate/04-545x363.jpg' %}" alt="Los Angeles" width="100%" height="100%">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="{% static 'img/corporate/05-545x363.jpg' %}" alt="Los Angeles" width="100%" height="100%">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="{% static 'img/corporate/06-545x363.jpg' %}" alt="Los Angeles" width="100%" height="100%">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="{% static 'img/corporate/07-545x363.jpg' %}" alt="Los Angeles" width="100%" height="100%">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="{% static 'img/corporate/08-545x363.jpg' %}" alt="None" width="100%" height="100%">
+                        </div>
+                        
+                      </div>
+                      
+                      <!-- Left and right controls -->
+                      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                      </a>
+                      <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <hr/>
+      </section><!-- End Corporate Social Responsibility Section -->
+
+      <!-- ======= Our Bank Details Section ======= -->
+        <section class="card shadow section-bg" style="border-radius: 0px;">
+          <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+              <h2>Bank Details</h2>
+            </div>
+
+              <div class="row text-center justify-content-center" data-aos="fade-up">
+                <div class='col-md-6 col-lg-6'>
+                  <p>Meek sweater & fashions ltd</p>
+                  <h3>SBAC BANK LIMITED</h3>
+                  <p>Uttara Branch, Rajuk Cosmo Shopping Complex,</p>
+                  <p>(1st Floor), Plot-71, Sector-07,</p>
+                  <p>Uttara, Dhaka, Bangladesh.</p>
+                </div>
+
+                <div class='col-md-6 col-lg-6'>
+                  <p>Meek sweater ltd</p>
+                  <h3>NRBC BANK LIMITED</h3>
+                  <p>Masum Plaza, (Ground & 2nd Floor),</p>
+                  <p>House-13, Road-15, Sector-03,</p>
+                  <p>Uttara, Dhaka, Bangladesh.</p>
+                </div>
+              
+
+              </div>
+
+          </div>
+        </section><!-- End Bank Details Section -->
+
+        <!-- ======= Our Vision Details Section ======= -->
+        <section class="">
+          <div class="container" data-aos="fade-up">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h5 class="card-title">Declaration</h5>
+                    <p class="card-text">We strictly maintain our commitment and follow 3Q policy :</p>
+                    <p class="card-text">Quality first, Quality last and Quality always (QQQ). It may be mentioned that from the day one, our management very conscious about the COMPLIANCE requirement of today.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h5 class="card-title">Production Information</h5>
+                    <p class="card-text">Production per month = 5,70,000 Pcs</p>
+                    <p class="card-text">We manufacture all types of Sweaters, Cardigans, Pullovers, Lingeries using all types of yarn from any source specified by the customer, Quality is our HIGHEST PRIORITY.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h5 class="card-title">Our Vission</h5>
+                    <p class="card-text">Customer’s satisfaction is our only priority. We are committed to customer for belows *Quality *Commitment *Dependability *Buyer Satisfaction *Environment Consciousness *Social Responsibility*</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-5">
+              <div class="col-md-4">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h5 class="card-title">Speciality</h5>
+                    <p class="card-text"># Our knitting machines are V- raising with fashion. And our productivity is higher than others.</p>
+                      <p># All knitting machines are MMS type ( Auto colour change )</p>
+                      <p># To maintain quality and on time shipment we keep our finishing capacity bigger then knitting and linking capacity.</p>
+                      <p># Our price is always competitive</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <h5 class="card-title">Experience</h5>
+                    <p class="card-text">Our management teams are highly experienced about sweater department. Details are as follows :</p>
+                    <p class="card-text"><strong>A) Managing Director ( M.A. Mannan ) : 32 years working experience on sweater.</strong></p>
+                    <p class="card-text"><strong>B) Chairman ( Anupam Dey – Raju ) : 25 years working experience on sweater.</strong></p>
+                    <p class="card-text">(N.B : We have 5-10 years experienced merchandisers in our merchandising team.)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section><!-- End Vision Details Section -->
+
+        <!-- ======= Our Clients Section ======= -->
+        <section id="clients" class="clients">
+          <div class="container mt-4" data-aos="fade-up">
+
+              <div class="section-title">
+                <h2>Our <strong>Client & Wisher</strong></h2>
+              </div>
+
+              <div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">
+
+              <div class="col-lg-3 col-md-4 col-6">
+                  <div class="client-logo">
+                  <img src="{% static 'img/clients/fila.jpg' %}" class="img-fluid" alt="" width="55%" height="55%">
+                  </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-6">
+                  <div class="client-logo">
+                  <img src="{% static 'img/clients/2-c.png' %}" class="img-fluid" alt="">
+                  </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-6">
+                  <div class="client-logo">
+                  <img src="{% static 'img/clients/3-c.png' %}" class="img-fluid" alt="">
+                  </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-6">
+                  <div class="client-logo">
+                  <img src="{% static 'img/clients/etam.png' %}" class="img-fluid" alt="">
+                  </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-6">
+                  <div class="client-logo">
+                  <img src="{% static 'img/clients/c-15.png' %}" class="img-fluid" alt="" width="89%" height="89%">
+                  </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-6">
+                  <div class="client-logo">
+                  <img src="{% static 'img/clients/c-12.png' %}"  class="img-fluid" alt="" width="100%" height="100%">
+                  </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-6">
+                  <div class="client-logo">
+                  <img src="{% static 'img/clients/c-7.png' %}"  class="img-fluid" alt="">
+                  </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-6">
+                  <div class="client-logo">
+                    <img src="{% static 'img/clients/15-c.png' %}" class="img-fluid" alt="">
+                  </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-6">
+                <div class="client-logo">
+                  <img src="{% static 'img/clients/123.jpg' %}" class="img-fluid" alt="">
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+              <div class="client-logo">
+                <img src="{% static 'img/clients/c-13.png' %}" class="img-fluid" alt="" width="89%" height="89%">
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+              <div class="client-logo">
+                <img src="{% static 'img/clients/lerros.png' %}" class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+              <div class="client-logo">
+                <img src="{% static 'img/clients/us.png' %}" class="img-fluid" alt="">
+              </div>
+            </div>
+
+              </div>
+          </div>
+        </section><!-- End Our Clients Section -->
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+          <div class="container mt-3">
+            <div class="section-title">
+              <h2>Contact <strong>With Us</strong></h2>
+            </div>
+            <div class="row justify-content-center" data-aos="fade-up">
+
+              <div class="col-lg-10">
+
+                <div class="info-wrap">
+                  <div class="row">
+                    <div class="col-lg-4 info">
+                      <i class="bi bi-geo-alt"></i>
+                      <h4>Location:</h4>
+                      <p>Holding # 1693, Shonda, Sharifpur, National University, Gazipur Sadar, Gazipur, Bangladesh.</p>
+                    </div>
+
+                    <div class="col-lg-4 info mt-4 mt-lg-0">
+                      <i class="bi bi-envelope"></i>
+                      <h4>Email:</h4>
+                      <p>mannan@meeksweater.com</p>
+                      <p>raju@meeksweater.com</p>
+                    </div>
+
+                    <div class="col-lg-4 info mt-4 mt-lg-0">
+                      <i class="bi bi-phone"></i>
+                      <h4>Call:</h4>
+                      <p>(880-2) 9292674<br>Fax: (880-2) 9292681</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="row mt-5 justify-content-center" data-aos="fade-up">
+              <div class="col-lg-10">
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                  <div class="row">
+                    <div class="col-md-6 form-group">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                    </div>
+                  </div>
+                  <div class="form-group mt-3">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                  </div>
+                  <div class="form-group mt-3">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                  </div>
+                  <div class="my-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                  </div>
+                  <div class="text-center"><button type="submit">Send Message</button></div>
+                </form>
+              </div>
+
+            </div>
+
+          </div>
+        </section><!-- End Contact Section -->
+
+        <div class="map-section">
+          <iframe style="border: 0; width: 100%; height: 377px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d69491.50858914762!2d90.34351073680166!3d23.9796628704805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755dca070bbeb01%3A0xb28c1d7decf43a18!2sMeek+Sweater+%26+Fashions+Ltd!5e1!3m2!1sen!2sbd!4v1527873655595" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+          {% comment %} <iframe style="border: 0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17374.060176604282!2d90.38818099999997!3d23.918925800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe9f1806d9aec251e!2sMeek+Sweater+Limited!5e1!3m2!1sen!2sbd!4v1528481718952" frameborder="0" allowfullscreen="allowfullscreen"></iframe> {% endcomment %}
+          {% comment %} <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe> {% endcomment %}
+        </div>   
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container d-md-flex py-4">
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Meek Sweater & Fashions Ltd <span id='year'>2022</span></span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            Develop by <a href="https://github.com/mehedi432">Meek IT</a>
+          </div>
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+    </footer><!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <script>
+      const ctx = document.getElementById('myChart');
+      const myChart = new Chart(ctx, {
+          type: 'bar',
+          data: {
+              labels: ['2017_8.52M', '2018_12.60M', '2019_16.80M', '2020_13.20M', '2021_13.50M'],
+              datasets: [{
+                  label: 'Yearly Turnover',
+                  data: [8.52, 12.60, 16.80, 13.20, 13.50],
+                  backgroundColor: [
+                      'rgba(255, 99, 132, 0.2)',
+                      'rgba(54, 162, 235, 0.2)',
+                      'rgba(255, 206, 86, 0.2)',
+                      'rgba(75, 192, 192, 0.2)',
+                      'rgba(153, 102, 255, 0.2)',
+                      'rgba(255, 159, 64, 0.2)'
+                  ],
+                  borderColor: [
+                      'rgba(255, 99, 132, 1)',
+                      'rgba(54, 162, 235, 1)',
+                      'rgba(255, 206, 86, 1)',
+                      'rgba(75, 192, 192, 1)',
+                      'rgba(153, 102, 255, 1)',
+                      'rgba(255, 159, 64, 1)'
+                  ],
+                  borderWidth: 1
+              }]
+          },
+          options: {
+              scales: {
+                  y: {
+                      beginAtZero: true
+                  }
+              }
+          }
+      });
+    </script>
+    
+{% endblock content %}

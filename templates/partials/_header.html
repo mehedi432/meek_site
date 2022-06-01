@@ -1,0 +1,43 @@
+<!-- ======= Header ======= -->
+{% load static %}
+<header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="/" class="logo me-auto me-lg-0 "><img src="{% static 'img/cropped-meek-sweater-fashions-ltd.jpg' %}" alt="" class="img-fluid"></a>
+
+      <nav id="navbar" class="autohide navbar order-last order-lg-0 navbar-scroll">
+        
+        <ul>
+          <li><a href="/" >Home</a></li>
+          <li><a href="#management">Management</a></li>
+          <li><a href="#compliance">Compliance</a></li>
+          <li class="dropdown"><a href="#about"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="{% url 'meek-sweater' %}">Another Project</a></li>
+              <li><a href="#gallery">Factory Gallery</a></li>
+              <li><a href="#team">Merchandising Team</a></li>
+              <li><a href="#quality">Quality Assurance</a></li>
+              <li><a href="#products">Our Products</a></li>
+            </ul>
+          </li>
+          <li><a href="#clients">Client</a></li>
+          <li class="dropdown"><a href="{% url 'profile' %}"><span>Profile</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="{% url 'meek-sweater' %}#profile-meek">Meek Sweater Ltd</a></li>
+              <li><a href="{% url 'profile' %}">Meek Sweater & Fashion Ltd.</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="header-social-links d-flex">
+        <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bu bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+      </div>
+    </div>
+  </header><!-- End Header -->
